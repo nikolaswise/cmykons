@@ -1,0 +1,41 @@
+// Font Declartions
+@font-face {
+  font-family: "CMYKons";
+  src: url(fonts/layer1-cmykons/fontcustom.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "CMYKons";
+  src: url(fonts/layer2-cmykons/fontcustom.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: "CMYKons";
+  src: url(fonts/layer3-cmykons/fontcustom.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "CMYKons";
+  src: url(fonts/layer4-cmykons/fontcustom.ttf);
+  font-weight: 400;
+}
+
+// Layer Ties
+.cmykon {
+  font-family: "CMYKons";
+  white-space: pre;
+  font-weight: 300;
+  line-height: 0;
+  padding: 0.5em 0;
+  height: 0;
+  letter-spacing: -1em;
+}
+.cmykon:first-letter {
+  font-weight: 100;
+}
+.cmykon:first-line {
+  font-weight: 200;
+}
+.cmykon:after {
+  font-weight: 400;
+}
