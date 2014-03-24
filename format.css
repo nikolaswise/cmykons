@@ -1,3 +1,42 @@
+html {
+  overflow-y: scroll;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
 .block-group {
   font-family: monospace;
   letter-spacing: -.65em;
@@ -30,8 +69,52 @@
 .block-group-5-up .block {
   width: 20%; }
 
+.container {
+  max-width: 112rem;
+  margin: auto;
+  padding: 0 2rem; }
+
+.content-area {
+  max-width: 66.66667%;
+  margin: auto; }
+  .content-area h1,
+  .content-area h2,
+  .content-area h3 {
+    text-align: center; }
+
+.banner {
+  padding: 2rem 0 3rem 0;
+  background-color: #333333; }
+
+.inline {
+  max-width: 66.66667%;
+  margin: auto;
+  display: block;
+  list-style-type: none; }
+  .inline li {
+    margin-right: 2rem;
+    float: left; }
+  .inline a {
+    color: #fafafa; }
+
+.introduction {
+  padding: 2rem 0;
+  background-color: #a6a6a6; }
+
 .cmykon {
   font-size: 12rem; }
 
 .cmykons-demo {
-  margin: 6rem; }
+  padding: 6rem;
+  background-color: #fafafa; }
+
+.about {
+  padding: 2rem 0;
+  background-color: #a6a6a6; }
+
+footer {
+  padding: 1rem 0;
+  background-color: #333333; }
+
+.collophon {
+  color: #fafafa; }

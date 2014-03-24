@@ -1,9 +1,3 @@
+@import 'format/reset';
 @import 'format/block-grid';
-
-.cmykon {
-  font-size: 12rem;
-}
-
-.cmykons-demo {
-  margin: 6rem;
-}
+@import 'format/layout';

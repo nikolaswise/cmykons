@@ -1,0 +1,118 @@
+// Config
+$container: 112rem;
+
+// Colors
+// Neutrals
+$white:                 hsl(0, 0, 100); //#FFFFFF
+$off-white:             hsl(0, 0, 98); //#F9F9F9
+$lightest-gray:         hsl(0, 0, 93); //#EDEDED
+$lighter-gray:          hsl(0, 0, 80); //#CCCCCC
+$light-gray:            hsl(0, 0, 65); //#A6A6A6
+$gray:                  hsl(0, 0, 50); //#808080
+$dark-gray:             hsl(0, 0, 35); //#595959
+$darker-gray:           hsl(0, 0, 20); //#333333
+$darkest-gray:          hsl(0, 0, 12); //#1F1F1F
+$off-black:             hsl(0, 0, 2);  //#050505
+$black:                 hsl(0, 0, 0);  //#000000
+
+// ┌─────────────────┐
+// │ SCALE:  MUSICAL │
+// └─────────────────┘
+$octave: 1/2;
+$major7th: 1/1.875;
+$minor7th: 1/1.778;
+$major6th: 1/1.667;
+$minor6th: 1/1.6;
+$fifth: 1/1.5;
+$dim5th: 1/1.414;
+$aug4th: 1/1.414;
+$fourth: 1/1.33;
+$major3rd: 1/1.25;
+$minor3rd: 1/1.2;
+$major2nd: 1/1.125;
+$minor2nd: 1/1.067;
+$unison: 1/1;
+
+// ┌─────────────────┐
+// │ PROPORTIONS     │
+// └─────────────────┘
+$proportion: $fifth;
+$tonal: $major6th;
+
+// ┌─────────────────┐
+// │ PER CENT        │
+// └─────────────────┘
+$width: $tonal*100%;
+$measure: $proportion*100%;
+$un-measure: (100%/$measure)*100%;
+$edge: (100%-$measure);
+$spine: $tonal*(100%-$measure);
+
+// Layout
+.container {
+  max-width: $container;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.content-area {
+  max-width: $measure;
+  margin: auto;
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+}
+
+// Nav Banner
+.banner {
+  padding: 2rem 0 3rem 0;
+  background-color: $darker-gray;
+}
+
+.inline {
+  max-width: $measure;
+  margin: auto;
+  display: block;
+  list-style-type: none;
+  li {
+    margin-right: 2rem;
+    float: left;
+  }
+  a {
+    color: $off-white;
+  }
+}
+
+// Introduction
+.introduction {
+  padding: 2rem 0;
+  background-color: $light-gray;
+}
+
+// Main Demo Section
+.cmykon {
+  font-size: 12rem;
+}
+
+.cmykons-demo {
+  padding: 6rem;
+  background-color: $off-white;
+}
+
+// About the Project
+.about {
+  padding: 2rem 0;
+  background-color: $light-gray;
+}
+
+// Footer
+footer {
+  padding: 1rem 0;
+  background-color: $darker-gray;
+}
+
+.collophon {
+  color: $off-white;
+}
