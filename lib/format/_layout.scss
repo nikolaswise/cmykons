@@ -107,6 +107,17 @@ $spine: $tonal*(100%-$measure);
   background-color: $light-gray;
 }
 
+pre {
+  background-color: $darker-gray;
+  border: 1px solid $darkest-gray;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+code {
+  color: $off-white;
+}
+
 // Footer
 footer {
   padding: 1rem 0;
