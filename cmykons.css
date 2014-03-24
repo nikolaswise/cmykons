@@ -1,0 +1,294 @@
+@font-face {
+  font-family: "CMYKons";
+  src: url(fonts/layer1-cmykons/fontcustom.ttf);
+  font-weight: 100; }
+
+@font-face {
+  font-family: "CMYKons";
+  src: url(fonts/layer2-cmykons/fontcustom.ttf);
+  font-weight: 200; }
+
+@font-face {
+  font-family: "CMYKons";
+  src: url(fonts/layer3-cmykons/fontcustom.ttf);
+  font-weight: 300; }
+
+@font-face {
+  font-family: "CMYKons";
+  src: url(fonts/layer4-cmykons/fontcustom.ttf);
+  font-weight: 400; }
+
+.cmykon {
+  font-family: "CMYKons";
+  white-space: pre;
+  font-weight: 300;
+  line-height: 0;
+  padding: 0.5em 0;
+  letter-spacing: -1em; }
+
+.cmykon:first-letter {
+  font-weight: 100; }
+
+.cmykon:first-line {
+  font-weight: 200; }
+
+.cmykon:after {
+  font-weight: 400; }
+
+/**
+ * Another icon
+ */
+.books {
+  color: red; }
+  .books:first-letter {
+    color: green; }
+  .books:first-line {
+    color: blue; }
+  .books:before {
+    content: "aa\a a"; }
+  .books:after {
+    color: orange;
+    content: "a"; }
+
+/**
+ * Another icon
+ */
+.browser {
+  color: red; }
+  .browser:first-letter {
+    color: green; }
+  .browser:first-line {
+    color: blue; }
+  .browser:before {
+    content: "bb\a b"; }
+  .browser:after {
+    color: orange;
+    content: "b"; }
+
+/**
+ * Another icon
+ */
+.calendar {
+  color: red; }
+  .calendar:first-letter {
+    color: green; }
+  .calendar:first-line {
+    color: blue; }
+  .calendar:before {
+    content: "cc\a c"; }
+  .calendar:after {
+    color: orange;
+    content: "c"; }
+
+/**
+ * Another icon
+ */
+.camera {
+  color: red; }
+  .camera:first-letter {
+    color: green; }
+  .camera:first-line {
+    color: blue; }
+  .camera:before {
+    content: "dd\a d"; }
+  .camera:after {
+    color: orange;
+    content: "d"; }
+
+/**
+ * Another icon
+ */
+.clock {
+  color: red; }
+  .clock:first-letter {
+    color: green; }
+  .clock:first-line {
+    color: blue; }
+  .clock:before {
+    content: "ee\a e"; }
+  .clock:after {
+    color: orange;
+    content: "e"; }
+
+/**
+ * Another icon
+ */
+.coffee {
+  color: red; }
+  .coffee:first-letter {
+    color: green; }
+  .coffee:first-line {
+    color: blue; }
+  .coffee:before {
+    content: "ff\a f"; }
+  .coffee:after {
+    color: orange;
+    content: "f"; }
+
+.compass {
+  color: red; }
+  .compass:first-letter {
+    color: green; }
+  .compass:first-line {
+    color: blue; }
+  .compass:before {
+    content: "gg\a g"; }
+  .compass:after {
+    color: orange;
+    content: "g"; }
+
+.debit {
+  color: red; }
+  .debit:first-letter {
+    color: green; }
+  .debit:first-line {
+    color: blue; }
+  .debit:before {
+    content: "hh\a h"; }
+  .debit:after {
+    color: orange;
+    content: "h"; }
+
+.gauge {
+  color: red; }
+  .gauge:first-letter {
+    color: green; }
+  .gauge:first-line {
+    color: blue; }
+  .gauge:before {
+    content: "ii\a i"; }
+  .gauge:after {
+    color: orange;
+    content: "i"; }
+
+.graph {
+  color: red; }
+  .graph:first-letter {
+    color: green; }
+  .graph:first-line {
+    color: blue; }
+  .graph:before {
+    content: "jj\a j"; }
+  .graph:after {
+    color: orange;
+    content: "j"; }
+
+.grid {
+  color: red; }
+  .grid:first-letter {
+    color: green; }
+  .grid:first-line {
+    color: blue; }
+  .grid:before {
+    content: "kk\a k"; }
+  .grid:after {
+    color: orange;
+    content: "k"; }
+
+.liferaft {
+  color: red; }
+  .liferaft:first-letter {
+    color: green; }
+  .liferaft:first-line {
+    color: blue; }
+  .liferaft:before {
+    content: "ll\a l"; }
+  .liferaft:after {
+    color: orange;
+    content: "l"; }
+
+.pencil {
+  color: red; }
+  .pencil:first-letter {
+    color: green; }
+  .pencil:first-line {
+    color: blue; }
+  .pencil:before {
+    content: "mm\a m"; }
+  .pencil:after {
+    color: orange;
+    content: "m"; }
+
+.phone {
+  color: red; }
+  .phone:first-letter {
+    color: green; }
+  .phone:first-line {
+    color: blue; }
+  .phone:before {
+    content: "nn\a n"; }
+  .phone:after {
+    color: orange;
+    content: "n"; }
+
+.piechart {
+  color: red; }
+  .piechart:first-letter {
+    color: green; }
+  .piechart:first-line {
+    color: blue; }
+  .piechart:before {
+    content: "oo\a o"; }
+  .piechart:after {
+    color: orange;
+    content: "o"; }
+
+.pin {
+  color: red; }
+  .pin:first-letter {
+    color: green; }
+  .pin:first-line {
+    color: blue; }
+  .pin:before {
+    content: "pp\a p"; }
+  .pin:after {
+    color: orange;
+    content: "p"; }
+
+.pizza {
+  color: red; }
+  .pizza:first-letter {
+    color: green; }
+  .pizza:first-line {
+    color: blue; }
+  .pizza:before {
+    content: "qq\a q"; }
+  .pizza:after {
+    color: orange;
+    content: "q"; }
+
+.radio {
+  color: red; }
+  .radio:first-letter {
+    color: green; }
+  .radio:first-line {
+    color: blue; }
+  .radio:before {
+    content: "rr\a r"; }
+  .radio:after {
+    color: orange;
+    content: "r"; }
+
+.spaceship {
+  color: red; }
+  .spaceship:first-letter {
+    color: green; }
+  .spaceship:first-line {
+    color: blue; }
+  .spaceship:before {
+    content: "ss\a s"; }
+  .spaceship:after {
+    color: orange;
+    content: "s"; }
+
+.stamp {
+  color: red; }
+  .stamp:first-letter {
+    color: green; }
+  .stamp:first-line {
+    color: blue; }
+  .stamp:before {
+    content: "tt\a t"; }
+  .stamp:after {
+    color: orange;
+    content: "t"; }

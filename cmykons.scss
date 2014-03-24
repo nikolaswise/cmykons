@@ -1,0 +1,399 @@
+// Font Declartions
+@font-face {
+  font-family: "CMYKons";
+  src: url(fonts/layer1-cmykons/fontcustom.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "CMYKons";
+  src: url(fonts/layer2-cmykons/fontcustom.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: "CMYKons";
+  src: url(fonts/layer3-cmykons/fontcustom.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "CMYKons";
+  src: url(fonts/layer4-cmykons/fontcustom.ttf);
+  font-weight: 400;
+}
+
+// Layer Ties
+.cmykon {
+  font-family: "CMYKons";
+  white-space: pre;
+  font-weight: 300;
+  line-height: 0;
+  padding: 0.5em 0;
+  letter-spacing: -1em;
+}
+.cmykon:first-letter {
+  font-weight: 100;
+}
+.cmykon:first-line {
+  font-weight: 200;
+}
+.cmykon:after {
+  font-weight: 400;
+}
+
+// Color Config
+$red: red;
+$green: green;
+$orange: orange;
+$blue: blue;
+
+// Background Config
+%cmyk-rounded {
+
+}
+
+%cmyk-circle {
+
+}
+
+/**
+ * Another icon
+ */
+.books {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "aa\a a";
+  }
+  &:after {
+    color: $orange;
+    content: "a";
+  }
+}
+
+/**
+ * Another icon
+ */
+.browser {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "bb\a b";
+  }
+  &:after {
+    color: $orange;
+    content: "b";
+  }
+}
+
+/**
+ * Another icon
+ */
+.calendar {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "cc\a c";
+  }
+  &:after {
+    color: $orange;
+    content: "c";
+  }
+}
+
+/**
+ * Another icon
+ */
+.camera {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "dd\a d";
+  }
+  &:after {
+    color: $orange;
+    content: "d";
+  }
+}
+
+/**
+ * Another icon
+ */
+.clock {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "ee\a e";
+  }
+  &:after {
+    color: $orange;
+    content: "e";
+  }
+}
+/**
+ * Another icon
+ */
+.coffee {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "ff\a f";
+  }
+  &:after {
+    color: $orange;
+    content: "f";
+  }
+}
+
+.compass {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "gg\a g";
+  }
+  &:after {
+    color: $orange;
+    content: "g";
+  }
+}
+.debit {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "hh\a h";
+  }
+  &:after {
+    color: $orange;
+    content: "h";
+  }
+}
+.gauge {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "ii\a i";
+  }
+  &:after {
+    color: $orange;
+    content: "i";
+  }
+}
+.graph {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "jj\a j";
+  }
+  &:after {
+    color: $orange;
+    content: "j";
+  }
+}
+.grid {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "kk\a k";
+  }
+  &:after {
+    color: $orange;
+    content: "k";
+  }
+}
+.liferaft {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "ll\a l";
+  }
+  &:after {
+    color: $orange;
+    content: "l";
+  }
+}
+.pencil {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "mm\a m";
+  }
+  &:after {
+    color: $orange;
+    content: "m";
+  }
+}
+.phone {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "nn\a n";
+  }
+  &:after {
+    color: $orange;
+    content: "n";
+  }
+}
+.piechart {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "oo\a o";
+  }
+  &:after {
+    color: $orange;
+    content: "o";
+  }
+}
+.pin {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "pp\a p";
+  }
+  &:after {
+    color: $orange;
+    content: "p";
+  }
+}
+.pizza {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "qq\a q";
+  }
+  &:after {
+    color: $orange;
+    content: "q";
+  }
+}
+.radio {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "rr\a r";
+  }
+  &:after {
+    color: $orange;
+    content: "r";
+  }
+}
+.spaceship {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "ss\a s";
+  }
+  &:after {
+    color: $orange;
+    content: "s";
+  }
+}
+.stamp {
+  color: $red;
+  &:first-letter {
+    color: $green;
+  }
+  &:first-line {
+    color: $blue;
+  }
+  &:before {
+    content: "tt\a t";
+  }
+  &:after {
+    color: $orange;
+    content: "t";
+  }
+}

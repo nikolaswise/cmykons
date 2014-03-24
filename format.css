@@ -1,34 +1,24 @@
-// BLOCK GRID
-//
 .block-group {
   font-family: monospace;
   letter-spacing: -.65em;
   margin-left: -1em;
   margin-right: -1em;
   text-align: left;
-  display: block;
-  &.center {
-    text-align: center;
-  }
-}
+  display: block; }
+  .block-group.center {
+    text-align: center; }
 
-%block {
+.cmykon {
   position: relative;
   display: inline-block;
   float: none;
-  // padding-left: 0.5em;
   padding-right: 1em;
-  // letter-spacing: normal;
   text-align: left;
-  vertical-align: top;
-}
+  vertical-align: top; }
 
 .cmykon {
-  @extend %block;
   font-size: 12rem;
-  margin: 2rem;
-}
+  margin: 2rem; }
 
 .cmykons-demo {
-  margin: 6rem;
-}
+  margin: 6rem; }
