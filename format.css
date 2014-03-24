@@ -8,17 +8,30 @@
   .block-group.center {
     text-align: center; }
 
-.cmykon {
+.block {
   position: relative;
   display: inline-block;
   float: none;
-  padding-right: 1em;
   text-align: left;
   vertical-align: top; }
 
+.block-group-1-up .block {
+  width: 100%; }
+
+.block-group-2-up .block {
+  width: 50%; }
+
+.block-group-3-up .block {
+  width: 33.33333%; }
+
+.block-group-4-up .block {
+  width: 25%; }
+
+.block-group-5-up .block {
+  width: 20%; }
+
 .cmykon {
-  font-size: 12rem;
-  margin: 2rem; }
+  font-size: 12rem; }
 
 .cmykons-demo {
   margin: 6rem; }

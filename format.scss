@@ -12,21 +12,34 @@
   }
 }
 
-%block {
+.block {
   position: relative;
   display: inline-block;
   float: none;
-  // padding-left: 0.5em;
-  padding-right: 1em;
-  // letter-spacing: normal;
   text-align: left;
   vertical-align: top;
 }
 
+@mixin _block-grid ($prefix: "") {
+  .#{$prefix}block-group-1-up .block { width: 100%; }
+  .#{$prefix}block-group-2-up .block { width: 50%; }
+  .#{$prefix}block-group-3-up .block { width: 33.33333%; }
+  .#{$prefix}block-group-4-up .block { width: 25%; }
+  .#{$prefix}block-group-5-up .block { width: 20%; }
+}
+
+@include _block-grid();
+
+// @include respond-to($tablet-mid){
+//   @include _block-grid("tablet-");
+// }
+
+// @include respond-to($phone){
+//   @include _block-grid("phone-");
+// }
+
 .cmykon {
-  @extend %block;
   font-size: 12rem;
-  margin: 2rem;
 }
 
 .cmykons-demo {
