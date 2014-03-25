@@ -1,0 +1,36 @@
+body {
+  @extend %AleoLight;
+  @extend %p18;
+}
+
+h1,
+h2,
+h3 {
+  @extend %AleoBold;
+}
+
+h1 {
+  @extend %p42;
+  @extend %upperCase;
+  @include tracking(3);
+}
+
+h2 {
+  @extend %p28-5;
+}
+
+h3 {
+  @extend %p18;
+}
+
+p {
+
+}
+
+code {
+ @extend %Inconsolata;
+}
+
+ul {
+  @extend %p13-5;
+}

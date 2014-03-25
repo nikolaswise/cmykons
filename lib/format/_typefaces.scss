@@ -1,0 +1,134 @@
+// ┌────────┐
+// │ CONFIG │
+// └────────┘
+html {
+  font-size: 16px;
+}
+// ┌─────────────────┐
+// │ PICA + BASELINE │
+// └─────────────────┘
+$pica: 1rem;
+$point: $pica/12;
+$p: $point;
+$baseline: 22*$point;
+
+// ┌─────────────────┐
+// │ EXTENSIONS      │
+// └─────────────────┘
+%upperCase {
+  text-transform: uppercase;
+}
+
+@mixin tracking($space) {
+  letter-spacing: $space*$p
+}
+
+// ┌───────────┐
+// │ TYPEFACES │
+// └───────────┘
+
+// ┌─────────┐
+// │ ALEO    │
+// └─────────┘
+%AleoLight {
+  font-family: 'Aleo'; font-weight: 300; font-style: normal;}
+
+%AleoMedium {
+  font-family: 'Aleo'; font-weight: 400; font-style: normal;}
+
+%AleoBold {
+  font-family: 'Aleo'; font-weight: 700; font-style: normal;}
+
+// ┌─────────────────┐
+// │ INCONSOLATA     │
+// └─────────────────┘
+%Inconsolata {font-family: 'Inconsolata', monospace; font-weight: 500; font-style: normal;}
+
+/*
+┌─────────────────────────────────────────────────┐
+├─────────────────────────────────────────────────┤
+│ Point Sizes - Reference                         │
+├─────────────────────────────────────────────────┤
+├─────────────────────────────────────────────────┤
+│ PIXELS                                   POINTS │
+├─────────────────────────────────────────────────┤
+│ 12px                                     p9     │
+├─────────────────────────────────────────────────┤
+│ 14px                                     p10.5  │
+├─────────────────────────────────────────────────┤
+│ 16px                                     p12    │
+├─────────────────────────────────────────────────┤
+│ 18px                                     p13.5  │
+├─────────────────────────────────────────────────┤
+│ 24px                                     p18    │
+├─────────────────────────────────────────────────┤
+│ 32px                                     p24    │
+├─────────────────────────────────────────────────┤
+│ 38px                                     p28.5  │
+├─────────────────────────────────────────────────┤
+└─────────────────────────────────────────────────┘
+*/
+
+// ┌─────────────────┐
+// │ TO REM          │
+// └─────────────────┘
+@function calculateRem($size) {
+  $remSize: $size / 12;
+  //Default font size on html element is 100%, equivalent to 16px, or 12 point.;
+  @return $remSize*1rem;
+}
+
+// ┌─────────────────┐
+// │ PIXEL FALLBACK  │
+// └─────────────────┘
+@mixin fontSize($size) {
+  font-size: $size*1px;
+  font-size: calculateRem($size);
+}
+
+// ┌─────────────────┐
+// │ POINTSIZES      │
+// └─────────────────┘
+%p9 {
+  font-size: 9*$point;
+  line-height: 1*$baseline;
+  margin-top: 0;
+  padding-top: 7*$p;
+  margin-bottom: -7*$p;}
+%p10-5 {
+  font-size:10.5*$point;
+  line-height: 1*$baseline;
+  margin-top: 0;
+  padding-top: 5.5*$p;
+  margin-bottom: -5.5*$p;}
+%p12 {
+  font-size:12*$point;
+  line-height: 1*$baseline;
+  margin-top: 0;
+  padding-top: 4*$p;
+  margin-bottom: -4*$p;}
+%p13-5 {
+  font-size:13.5*$point;
+  line-height: 1*$baseline;}
+%p18 {
+  font-size:18*$point;
+  line-height: 1.66*$baseline;
+  margin-top: 0;}
+%p24 {
+  font-size:24*$point;
+  line-height: 2*$baseline;
+  margin-top: 0;
+  padding-top: 9*$p;
+  margin-bottom: -9*$p;}
+%p28-5 {
+  font-size:28.5*$point;
+  line-height: 2*$baseline;
+  margin-top: 0;
+  padding-top: 8.5*$p;
+  margin-bottom: -8.5*$p;}
+%p42 {
+  font-size:42*$point;
+  line-height: 3*$baseline;
+  margin-top: 0;
+  padding-top: 8.5*$p;
+  margin-bottom: -8.5*$p;}

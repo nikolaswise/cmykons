@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   overflow-y: scroll;
   font-size: 100%;
@@ -36,6 +37,79 @@ audio:not([controls]) {
 
 svg:not(:root) {
   overflow: hidden; }
+
+html {
+  font-size: 16px; }
+
+h1 {
+  text-transform: uppercase; }
+
+body {
+  font-family: 'Aleo';
+  font-weight: 300;
+  font-style: normal; }
+
+h1,
+h2,
+h3 {
+  font-family: 'Aleo';
+  font-weight: 700;
+  font-style: normal; }
+
+code {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 500;
+  font-style: normal; }
+
+/*
+┌─────────────────────────────────────────────────┐
+├─────────────────────────────────────────────────┤
+│ Point Sizes - Reference                         │
+├─────────────────────────────────────────────────┤
+├─────────────────────────────────────────────────┤
+│ PIXELS                                   POINTS │
+├─────────────────────────────────────────────────┤
+│ 12px                                     p9     │
+├─────────────────────────────────────────────────┤
+│ 14px                                     p10.5  │
+├─────────────────────────────────────────────────┤
+│ 16px                                     p12    │
+├─────────────────────────────────────────────────┤
+│ 18px                                     p13.5  │
+├─────────────────────────────────────────────────┤
+│ 24px                                     p18    │
+├─────────────────────────────────────────────────┤
+│ 32px                                     p24    │
+├─────────────────────────────────────────────────┤
+│ 38px                                     p28.5  │
+├─────────────────────────────────────────────────┤
+└─────────────────────────────────────────────────┘
+*/
+ul {
+  font-size: 1.125rem;
+  line-height: 1.83333rem; }
+
+body, h3 {
+  font-size: 1.5rem;
+  line-height: 3.04333rem;
+  margin-top: 0; }
+
+h2 {
+  font-size: 2.375rem;
+  line-height: 3.66667rem;
+  margin-top: 0;
+  padding-top: 0.70833rem;
+  margin-bottom: -0.70833rem; }
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 5.5rem;
+  margin-top: 0;
+  padding-top: 0.70833rem;
+  margin-bottom: -0.70833rem; }
+
+h1 {
+  letter-spacing: 0.25rem; }
 
 .block-group {
   font-family: monospace;
@@ -115,8 +189,8 @@ svg:not(:root) {
 pre {
   background-color: #333333;
   border: 1px solid #1f1f1f;
-  padding: 2rem;
-  margin: 2rem 0; }
+  padding: 2rem 2rem 0 2rem;
+  margin: 2rem 0 0 0; }
 
 code {
   color: #fafafa; }
