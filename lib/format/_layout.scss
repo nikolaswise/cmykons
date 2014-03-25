@@ -1,5 +1,5 @@
 // Config
-$container: 112rem;
+$container:             112rem;
 
 // Colors
 // Neutrals
@@ -15,23 +15,33 @@ $darkest-gray:          hsl(0, 0, 12); //#1F1F1F
 $off-black:             hsl(0, 0, 2);  //#050505
 $black:                 hsl(0, 0, 0);  //#000000
 
+$red:                   #AF420A;
+$yellow:                #CBB345;
+$green:                 #609F80;
+$blue:                  #798E87;
+$cream:                 #CCC591;
+$olive:                 #8D9876;
+$dark-olive:            #4B574D;
+$text:                  #29211F;
+
+
 // ┌─────────────────┐
 // │ SCALE:  MUSICAL │
 // └─────────────────┘
-$octave: 1/2;
-$major7th: 1/1.875;
-$minor7th: 1/1.778;
-$major6th: 1/1.667;
-$minor6th: 1/1.6;
-$fifth: 1/1.5;
-$dim5th: 1/1.414;
-$aug4th: 1/1.414;
-$fourth: 1/1.33;
-$major3rd: 1/1.25;
-$minor3rd: 1/1.2;
-$major2nd: 1/1.125;
-$minor2nd: 1/1.067;
-$unison: 1/1;
+$octave:                1/2;
+$major7th:              1/1.875;
+$minor7th:              1/1.778;
+$major6th:              1/1.667;
+$minor6th:              1/1.6;
+$fifth:                 1/1.5;
+$dim5th:                1/1.414;
+$aug4th:                1/1.414;
+$fourth:                1/1.33;
+$major3rd:              1/1.25;
+$minor3rd:              1/1.2;
+$major2nd:              1/1.125;
+$minor2nd:              1/1.067;
+$unison:                1/1;
 
 // ┌─────────────────┐
 // │ PROPORTIONS     │
@@ -49,6 +59,10 @@ $edge: (100%-$measure);
 $spine: $tonal*(100%-$measure);
 
 // Layout
+body {
+  color: $off-white;
+}
+
 .container {
   max-width: $container;
   margin: auto;
@@ -94,7 +108,7 @@ $spine: $tonal*(100%-$measure);
 // Introduction
 .introduction {
   padding: 2rem 0;
-  background-color: $light-gray;
+  background-color: $blue;
 }
 
 // Buttons
@@ -109,6 +123,20 @@ $spine: $tonal*(100%-$measure);
     background-color: $darkest-gray;
   }
 }
+.download {
+  background-color: $green;
+  border: 1px solid darken($green, 10);
+  &:hover {
+    background-color: darken($green, 7);
+  }
+}
+.github {
+  background-color: $yellow;
+  border: 1px solid darken($yellow, 10);
+  &:hover {
+    background-color: darken($yellow, 7);
+  }
+}
 
 // Main Demo Section
 .cmykon {
@@ -117,13 +145,13 @@ $spine: $tonal*(100%-$measure);
 
 .cmykons-demo {
   padding: 6rem;
-  background-color: $off-white;
+  background-color: $lightest-gray;
 }
 
 // About the Project
 .about {
   padding: 2rem 0;
-  background-color: $light-gray;
+  background-color: $blue;
 }
 
 pre {

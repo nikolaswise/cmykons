@@ -142,6 +142,9 @@ h1 {
 .block-group-5-up .block {
   width: 20%; }
 
+body {
+  color: #fafafa; }
+
 .container {
   max-width: 112rem;
   margin: auto;
@@ -176,7 +179,7 @@ h1 {
 
 .introduction {
   padding: 2rem 0;
-  background-color: #a6a6a6; }
+  background-color: #798e87; }
 
 .button {
   letter-spacing: 0.08333rem;
@@ -188,16 +191,28 @@ h1 {
   .button:hover {
     background-color: #1f1f1f; }
 
+.download {
+  background-color: #609f80;
+  border: 1px solid #4d7f66; }
+  .download:hover {
+    background-color: #53896e; }
+
+.github {
+  background-color: #cbb345;
+  border: 1px solid #ad9630; }
+  .github:hover {
+    background-color: #b9a134; }
+
 .cmykon {
   font-size: 16rem; }
 
 .cmykons-demo {
   padding: 6rem;
-  background-color: #fafafa; }
+  background-color: #ededed; }
 
 .about {
   padding: 2rem 0;
-  background-color: #a6a6a6; }
+  background-color: #798e87; }
 
 pre {
   background-color: #333333;
