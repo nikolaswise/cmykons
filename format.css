@@ -41,17 +41,16 @@ svg:not(:root) {
 html {
   font-size: 16px; }
 
-h1 {
+h1, .inline a {
   text-transform: uppercase; }
 
-body {
+body, h3 {
   font-family: 'Aleo';
   font-weight: 300;
   font-style: normal; }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: 'Aleo';
   font-weight: 700;
   font-style: normal; }
@@ -169,14 +168,28 @@ h1 {
     margin-right: 2rem;
     float: left; }
   .inline a {
+    letter-spacing: 0.16667rem;
+    text-decoration: none;
     color: #fafafa; }
+    .inline a:hover {
+      color: orange; }
 
 .introduction {
   padding: 2rem 0;
   background-color: #a6a6a6; }
 
+.button {
+  letter-spacing: 0.08333rem;
+  padding: 0.75rem 2rem;
+  color: #fafafa;
+  text-decoration: none;
+  background-color: #333333;
+  border: 1px solid #1f1f1f; }
+  .button:hover {
+    background-color: #1f1f1f; }
+
 .cmykon {
-  font-size: 12rem; }
+  font-size: 16rem; }
 
 .cmykons-demo {
   padding: 6rem;

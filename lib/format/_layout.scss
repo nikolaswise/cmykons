@@ -81,7 +81,13 @@ $spine: $tonal*(100%-$measure);
     float: left;
   }
   a {
+    @extend %upperCase;
+    @include tracking(2);
+    text-decoration: none;
     color: $off-white;
+    &:hover {
+      color: orange;
+    }
   }
 }
 
@@ -91,9 +97,22 @@ $spine: $tonal*(100%-$measure);
   background-color: $light-gray;
 }
 
+// Buttons
+.button {
+  @include tracking(1);
+  padding: 0.75rem 2rem;
+  color: $off-white;
+  text-decoration: none;
+  background-color: $darker-gray;
+  border: 1px solid $darkest-gray;
+  &:hover {
+    background-color: $darkest-gray;
+  }
+}
+
 // Main Demo Section
 .cmykon {
-  font-size: 12rem;
+  font-size: 16rem;
 }
 
 .cmykons-demo {
