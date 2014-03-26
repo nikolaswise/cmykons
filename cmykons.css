@@ -42,9 +42,9 @@
 .books {
   color: #cccccc; }
   .books:first-letter {
-    color: #cbb345; }
+    color: gray; }
   .books:first-line {
-    color: #af420a; }
+    color: #cbb345; }
   .books:before {
     content: "aa\a a"; }
   .books:after {
@@ -56,31 +56,29 @@
  * Another icon
  */
 .browser {
-  color: #af420a; }
+  color: #cbb345; }
   .browser:first-letter {
-    color: #cbb345; }
+    color: #cccccc; }
   .browser:first-line {
     color: #333333; }
   .browser:before {
     content: "bb\a b"; }
   .browser:after {
-    color: #798e87;
+    color: #595959;
     content: "b"; }
 
 /**
  * Another icon
  */
 .calendar {
-  color: #798e87; }
+  color: #cbb345; }
   .calendar:first-letter {
-    color: #af420a;
-    opacity: 0.9; }
+    color: #cbb345; }
   .calendar:first-line {
-    color: #cbb345;
-    opacity: 1.0; }
+    color: #cccccc;
+    opacity: 0.1; }
   .calendar:before {
-    content: "cc\a c";
-    opacity: 0.7; }
+    content: "cc\a c"; }
   .calendar:after {
     color: #595959;
     opacity: 0.9;
@@ -108,14 +106,16 @@
 .clock {
   color: #cbb345; }
   .clock:first-letter {
-    color: #595959; }
+    color: #af420a; }
   .clock:first-line {
-    color: #333333; }
+    color: #609f80; }
   .clock:before {
-    content: "ee\a e"; }
+    content: "ee\a e";
+    opacity: 0.1; }
   .clock:after {
-    color: #1f1f1f;
-    content: "e"; }
+    color: #798e87;
+    content: "e";
+    opacity: 1; }
 
 /**
  * Another icon
@@ -181,7 +181,7 @@
   .graph:first-letter {
     color: #cbb345; }
   .graph:first-line {
-    color: #609f80; }
+    color: #8d9876; }
   .graph:before {
     content: "jj\a j";
     opacity: 0.9; }
@@ -311,7 +311,8 @@
     content: "s"; }
 
 .stamp {
-  color: gray; }
+  color: gray;
+  opacity: 0.5; }
   .stamp:first-letter {
     color: #cbb345; }
   .stamp:first-line {

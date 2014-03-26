@@ -4,10 +4,10 @@
 .books {
   color: $lighter-gray;
   &:first-letter {
-    color: $yellow;
+    color: $gray;
   }
   &:first-line {
-    color: $red;
+    color: $yellow;
   }
   &:before {
     content: "aa\a a";
@@ -23,9 +23,9 @@
  * Another icon
  */
 .browser {
-  color: $red;
+  color: $yellow;
   &:first-letter {
-    color: $yellow;
+    color: $lighter-gray;
   }
   &:first-line {
     color: $darker-gray;
@@ -34,7 +34,7 @@
     content: "bb\a b";
   }
   &:after {
-    color: $blue;
+    color: $dark-gray;
     content: "b";
   }
 }
@@ -43,18 +43,16 @@
  * Another icon
  */
 .calendar {
-  color: $blue;
+  color: $yellow;
   &:first-letter {
-    color: $red;
-    opacity: 0.9;
+    color: $yellow;
   }
   &:first-line {
-    color: $yellow;
-    opacity: 1.0;
+    color: $lighter-gray;
+    opacity: 0.1;
   }
   &:before {
     content: "cc\a c";
-    opacity: 0.7;
   }
   &:after {
     color: $dark-gray;
@@ -90,17 +88,19 @@
 .clock {
   color: $yellow;
   &:first-letter {
-    color: $dark-gray;
+    color: $red;
   }
   &:first-line {
-    color: $darker-gray;
+    color: $green;
   }
   &:before {
     content: "ee\a e";
+    opacity: 0.1;
   }
   &:after {
-    color: $darkest-gray;
+    color: $blue;
     content: "e";
+    opacity: 1;
   }
 }
 /**
@@ -185,7 +185,7 @@
     color: $yellow;
   }
   &:first-line {
-    color: $green;
+    color: $olive;
   }
   &:before {
     content: "jj\a j";
@@ -355,6 +355,7 @@
 }
 .stamp {
   color: $gray;
+  opacity: 0.5;
   &:first-letter {
     color: $yellow;
   }
