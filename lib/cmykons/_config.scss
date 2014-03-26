@@ -1,8 +1,24 @@
 // Color Config
-$red: red;
-$green: green;
-$orange: orange;
-$blue: blue;
+$white:                 hsl(0, 0, 100); //#FFFFFF
+$off-white:             hsl(0, 0, 98); //#F9F9F9
+$lightest-gray:         hsl(0, 0, 93); //#EDEDED
+$lighter-gray:          hsl(0, 0, 80); //#CCCCCC
+$light-gray:            hsl(0, 0, 65); //#A6A6A6
+$gray:                  hsl(0, 0, 50); //#808080
+$dark-gray:             hsl(0, 0, 35); //#595959
+$darker-gray:           hsl(0, 0, 20); //#333333
+$darkest-gray:          hsl(0, 0, 12); //#1F1F1F
+$off-black:             hsl(0, 0, 2);  //#050505
+$black:                 hsl(0, 0, 0);  //#000000
+
+$red:                   #AF420A;
+$yellow:                #CBB345;
+$green:                 #609F80;
+$blue:                  #798E87;
+$cream:                 #CCC591;
+$olive:                 #8D9876;
+$dark-olive:            #4B574D;
+$text:                  #29211F;
 
 // Background Config
 %cmyk-rounded {

@@ -2,19 +2,20 @@
  * Another icon
  */
 .books {
-  color: $red;
+  color: $lighter-gray;
   &:first-letter {
-    color: $green;
+    color: $yellow;
   }
   &:first-line {
-    color: $blue;
+    color: $red;
   }
   &:before {
     content: "aa\a a";
   }
   &:after {
-    color: $orange;
+    color: $dark-gray;
     content: "a";
+    opacity: 0.2;
   }
 }
 
@@ -24,16 +25,16 @@
 .browser {
   color: $red;
   &:first-letter {
-    color: $green;
+    color: $yellow;
   }
   &:first-line {
-    color: $blue;
+    color: $darker-gray;
   }
   &:before {
     content: "bb\a b";
   }
   &:after {
-    color: $orange;
+    color: $blue;
     content: "b";
   }
 }
@@ -42,18 +43,22 @@
  * Another icon
  */
 .calendar {
-  color: $red;
+  color: $blue;
   &:first-letter {
-    color: $green;
+    color: $red;
+    opacity: 0.9;
   }
   &:first-line {
-    color: $blue;
+    color: $yellow;
+    opacity: 1.0;
   }
   &:before {
     content: "cc\a c";
+    opacity: 0.7;
   }
   &:after {
-    color: $orange;
+    color: $dark-gray;
+    opacity: 0.9;
     content: "c";
   }
 }
@@ -62,18 +67,19 @@
  * Another icon
  */
 .camera {
-  color: $red;
+  color: $yellow;
   &:first-letter {
-    color: $green;
+    color: $lighter-gray;
   }
   &:first-line {
-    color: $blue;
+    color: $darkest-gray;
   }
   &:before {
     content: "dd\a d";
   }
   &:after {
-    color: $orange;
+    color: $dark-gray;
+    opacity: 0.4;
     content: "d";
   }
 }
@@ -82,18 +88,18 @@
  * Another icon
  */
 .clock {
-  color: $red;
+  color: $yellow;
   &:first-letter {
-    color: $green;
+    color: $dark-gray;
   }
   &:first-line {
-    color: $blue;
+    color: $darker-gray;
   }
   &:before {
     content: "ee\a e";
   }
   &:after {
-    color: $orange;
+    color: $darkest-gray;
     content: "e";
   }
 }
@@ -101,42 +107,48 @@
  * Another icon
  */
 .coffee {
-  color: $red;
+  color: $yellow;
   &:first-letter {
-    color: $green;
+    color: $red;
+    opacity: 0.9;
   }
   &:first-line {
-    color: $blue;
+    color: $darkest-gray;
   }
   &:before {
     content: "ff\a f";
+    opacity: 0.8;
   }
   &:after {
-    color: $orange;
+    color: $dark-gray;
+    opacity: 0.4;
     content: "f";
   }
 }
 
 .compass {
-  color: $red;
+  color: $blue;
   &:first-letter {
-    color: $green;
+    color: $red;
+    opacity: 0.5;
   }
   &:first-line {
-    color: $blue;
+    color: $dark-gray;
+    opacity: 1;
   }
   &:before {
     content: "gg\a g";
+    opacity: 0.5;
   }
   &:after {
-    color: $orange;
+    color: $darkest-gray;
     content: "g";
   }
 }
 .debit {
-  color: $red;
+  color: $darker-gray;
   &:first-letter {
-    color: $green;
+    color: $yellow;
   }
   &:first-line {
     color: $blue;
@@ -145,126 +157,135 @@
     content: "hh\a h";
   }
   &:after {
-    color: $orange;
+    color: $dark-gray;
+    opacity: 0.4;
     content: "h";
   }
 }
 .gauge {
-  color: $red;
+  color: $darker-gray;
   &:first-letter {
-    color: $green;
+    color: $yellow;
   }
   &:first-line {
-    color: $blue;
+    color: $red;
   }
   &:before {
     content: "ii\a i";
   }
   &:after {
-    color: $orange;
+    color: $dark-gray;
+    opacity: 0.4;
     content: "i";
   }
 }
 .graph {
-  color: $red;
+  color: $dark-olive;
   &:first-letter {
-    color: $green;
+    color: $yellow;
   }
   &:first-line {
-    color: $blue;
+    color: $green;
   }
   &:before {
     content: "jj\a j";
+    opacity: 0.9;
   }
   &:after {
-    color: $orange;
+    color: $dark-gray;
+    opacity: 0.4;
     content: "j";
   }
 }
 .grid {
-  color: $red;
+  color: $lighter-gray;
   &:first-letter {
-    color: $green;
+    color: $darkest-gray;
   }
   &:first-line {
-    color: $blue;
+    color: $gray;
   }
   &:before {
     content: "kk\a k";
   }
   &:after {
-    color: $orange;
+    color: $yellow;
+    opacity: 0.6;
     content: "k";
   }
 }
 .liferaft {
-  color: $red;
+  color: $dark-gray;
   &:first-letter {
-    color: $green;
+    color: $yellow;
   }
   &:first-line {
-    color: $blue;
+    color: $red;
   }
   &:before {
     content: "ll\a l";
   }
   &:after {
-    color: $orange;
+    color: $darker-gray;
     content: "l";
   }
 }
 .pencil {
-  color: $red;
+  color: $dark-gray;
   &:first-letter {
-    color: $green;
+    color: $yellow;
   }
   &:first-line {
-    color: $blue;
+    color: $darker-gray;
   }
   &:before {
     content: "mm\a m";
   }
   &:after {
-    color: $orange;
+    color: $dark-gray;
+    opacity: 0.4;
     content: "m";
   }
 }
 .phone {
-  color: $red;
+  color: $olive;
   &:first-letter {
-    color: $green;
+    color: $yellow;
+    opacity: 0.9;
   }
   &:first-line {
-    color: $blue;
+    color: $dark-olive;
   }
   &:before {
     content: "nn\a n";
+    opacity: 1;
   }
   &:after {
-    color: $orange;
+    color: $darker-gray;
+    opacity: 0.9;
     content: "n";
   }
 }
 .piechart {
   color: $red;
   &:first-letter {
-    color: $green;
+    color: $darker-gray;
   }
   &:first-line {
-    color: $blue;
+    color: $green;
   }
   &:before {
     content: "oo\a o";
   }
   &:after {
-    color: $orange;
+    color: $yellow;
     content: "o";
   }
 }
 .pin {
-  color: $red;
+  color: $dark-gray;
   &:first-letter {
-    color: $green;
+    color: $yellow;
   }
   &:first-line {
     color: $blue;
@@ -273,71 +294,78 @@
     content: "pp\a p";
   }
   &:after {
-    color: $orange;
+    color: $darker-gray;
+    opacity: 0.3;
     content: "p";
   }
 }
 .pizza {
   color: $red;
   &:first-letter {
-    color: $green;
+    color: $yellow;
   }
   &:first-line {
-    color: $blue;
+    color: $dark-gray;
   }
   &:before {
     content: "qq\a q";
   }
   &:after {
-    color: $orange;
+    color: $darker-gray;
+    opacity: 0.3;
     content: "q";
   }
 }
 .radio {
-  color: $red;
+  color: $lighter-gray;
   &:first-letter {
-    color: $green;
+    color: $yellow;
+    opacity: 0.9;
   }
   &:first-line {
-    color: $blue;
+    color: $darker-gray;
+    opacity: 1;
   }
   &:before {
     content: "rr\a r";
+    opacity: 0.3;
   }
   &:after {
-    color: $orange;
+    color: $red;
     content: "r";
+    opacity: 1;
   }
 }
 .spaceship {
-  color: $red;
+  color: $lighter-gray;
   &:first-letter {
-    color: $green;
+    color: $yellow;
   }
   &:first-line {
-    color: $blue;
+    color: $darker-gray;
   }
   &:before {
     content: "ss\a s";
   }
   &:after {
-    color: $orange;
+    color: $darkest-gray;
+    opacity: 0.3;
     content: "s";
   }
 }
 .stamp {
-  color: $red;
+  color: $gray;
   &:first-letter {
-    color: $green;
+    color: $yellow;
   }
   &:first-line {
-    color: $blue;
+    color: $darker-gray;
   }
   &:before {
     content: "tt\a t";
   }
   &:after {
-    color: $orange;
+    color: $red;
     content: "t";
   }
 }

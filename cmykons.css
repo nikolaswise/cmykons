@@ -40,256 +40,284 @@
  * Another icon
  */
 .books {
-  color: red; }
+  color: #cccccc; }
   .books:first-letter {
-    color: green; }
+    color: #cbb345; }
   .books:first-line {
-    color: blue; }
+    color: #af420a; }
   .books:before {
     content: "aa\a a"; }
   .books:after {
-    color: orange;
-    content: "a"; }
+    color: #595959;
+    content: "a";
+    opacity: 0.2; }
 
 /**
  * Another icon
  */
 .browser {
-  color: red; }
+  color: #af420a; }
   .browser:first-letter {
-    color: green; }
+    color: #cbb345; }
   .browser:first-line {
-    color: blue; }
+    color: #333333; }
   .browser:before {
     content: "bb\a b"; }
   .browser:after {
-    color: orange;
+    color: #798e87;
     content: "b"; }
 
 /**
  * Another icon
  */
 .calendar {
-  color: red; }
+  color: #798e87; }
   .calendar:first-letter {
-    color: green; }
+    color: #af420a;
+    opacity: 0.9; }
   .calendar:first-line {
-    color: blue; }
+    color: #cbb345;
+    opacity: 1.0; }
   .calendar:before {
-    content: "cc\a c"; }
+    content: "cc\a c";
+    opacity: 0.7; }
   .calendar:after {
-    color: orange;
+    color: #595959;
+    opacity: 0.9;
     content: "c"; }
 
 /**
  * Another icon
  */
 .camera {
-  color: red; }
+  color: #cbb345; }
   .camera:first-letter {
-    color: green; }
+    color: #cccccc; }
   .camera:first-line {
-    color: blue; }
+    color: #1f1f1f; }
   .camera:before {
     content: "dd\a d"; }
   .camera:after {
-    color: orange;
+    color: #595959;
+    opacity: 0.4;
     content: "d"; }
 
 /**
  * Another icon
  */
 .clock {
-  color: red; }
+  color: #cbb345; }
   .clock:first-letter {
-    color: green; }
+    color: #595959; }
   .clock:first-line {
-    color: blue; }
+    color: #333333; }
   .clock:before {
     content: "ee\a e"; }
   .clock:after {
-    color: orange;
+    color: #1f1f1f;
     content: "e"; }
 
 /**
  * Another icon
  */
 .coffee {
-  color: red; }
+  color: #cbb345; }
   .coffee:first-letter {
-    color: green; }
+    color: #af420a;
+    opacity: 0.9; }
   .coffee:first-line {
-    color: blue; }
+    color: #1f1f1f; }
   .coffee:before {
-    content: "ff\a f"; }
+    content: "ff\a f";
+    opacity: 0.8; }
   .coffee:after {
-    color: orange;
+    color: #595959;
+    opacity: 0.4;
     content: "f"; }
 
 .compass {
-  color: red; }
+  color: #798e87; }
   .compass:first-letter {
-    color: green; }
+    color: #af420a;
+    opacity: 0.5; }
   .compass:first-line {
-    color: blue; }
+    color: #595959;
+    opacity: 1; }
   .compass:before {
-    content: "gg\a g"; }
+    content: "gg\a g";
+    opacity: 0.5; }
   .compass:after {
-    color: orange;
+    color: #1f1f1f;
     content: "g"; }
 
 .debit {
-  color: red; }
+  color: #333333; }
   .debit:first-letter {
-    color: green; }
+    color: #cbb345; }
   .debit:first-line {
-    color: blue; }
+    color: #798e87; }
   .debit:before {
     content: "hh\a h"; }
   .debit:after {
-    color: orange;
+    color: #595959;
+    opacity: 0.4;
     content: "h"; }
 
 .gauge {
-  color: red; }
+  color: #333333; }
   .gauge:first-letter {
-    color: green; }
+    color: #cbb345; }
   .gauge:first-line {
-    color: blue; }
+    color: #af420a; }
   .gauge:before {
     content: "ii\a i"; }
   .gauge:after {
-    color: orange;
+    color: #595959;
+    opacity: 0.4;
     content: "i"; }
 
 .graph {
-  color: red; }
+  color: #4b574d; }
   .graph:first-letter {
-    color: green; }
+    color: #cbb345; }
   .graph:first-line {
-    color: blue; }
+    color: #609f80; }
   .graph:before {
-    content: "jj\a j"; }
+    content: "jj\a j";
+    opacity: 0.9; }
   .graph:after {
-    color: orange;
+    color: #595959;
+    opacity: 0.4;
     content: "j"; }
 
 .grid {
-  color: red; }
+  color: #cccccc; }
   .grid:first-letter {
-    color: green; }
+    color: #1f1f1f; }
   .grid:first-line {
-    color: blue; }
+    color: gray; }
   .grid:before {
     content: "kk\a k"; }
   .grid:after {
-    color: orange;
+    color: #cbb345;
+    opacity: 0.6;
     content: "k"; }
 
 .liferaft {
-  color: red; }
+  color: #595959; }
   .liferaft:first-letter {
-    color: green; }
+    color: #cbb345; }
   .liferaft:first-line {
-    color: blue; }
+    color: #af420a; }
   .liferaft:before {
     content: "ll\a l"; }
   .liferaft:after {
-    color: orange;
+    color: #333333;
     content: "l"; }
 
 .pencil {
-  color: red; }
+  color: #595959; }
   .pencil:first-letter {
-    color: green; }
+    color: #cbb345; }
   .pencil:first-line {
-    color: blue; }
+    color: #333333; }
   .pencil:before {
     content: "mm\a m"; }
   .pencil:after {
-    color: orange;
+    color: #595959;
+    opacity: 0.4;
     content: "m"; }
 
 .phone {
-  color: red; }
+  color: #8d9876; }
   .phone:first-letter {
-    color: green; }
+    color: #cbb345;
+    opacity: 0.9; }
   .phone:first-line {
-    color: blue; }
+    color: #4b574d; }
   .phone:before {
-    content: "nn\a n"; }
+    content: "nn\a n";
+    opacity: 1; }
   .phone:after {
-    color: orange;
+    color: #333333;
+    opacity: 0.9;
     content: "n"; }
 
 .piechart {
-  color: red; }
+  color: #af420a; }
   .piechart:first-letter {
-    color: green; }
+    color: #333333; }
   .piechart:first-line {
-    color: blue; }
+    color: #609f80; }
   .piechart:before {
     content: "oo\a o"; }
   .piechart:after {
-    color: orange;
+    color: #cbb345;
     content: "o"; }
 
 .pin {
-  color: red; }
+  color: #595959; }
   .pin:first-letter {
-    color: green; }
+    color: #cbb345; }
   .pin:first-line {
-    color: blue; }
+    color: #798e87; }
   .pin:before {
     content: "pp\a p"; }
   .pin:after {
-    color: orange;
+    color: #333333;
+    opacity: 0.3;
     content: "p"; }
 
 .pizza {
-  color: red; }
+  color: #af420a; }
   .pizza:first-letter {
-    color: green; }
+    color: #cbb345; }
   .pizza:first-line {
-    color: blue; }
+    color: #595959; }
   .pizza:before {
     content: "qq\a q"; }
   .pizza:after {
-    color: orange;
+    color: #333333;
+    opacity: 0.3;
     content: "q"; }
 
 .radio {
-  color: red; }
+  color: #cccccc; }
   .radio:first-letter {
-    color: green; }
+    color: #cbb345;
+    opacity: 0.9; }
   .radio:first-line {
-    color: blue; }
+    color: #333333;
+    opacity: 1; }
   .radio:before {
-    content: "rr\a r"; }
+    content: "rr\a r";
+    opacity: 0.3; }
   .radio:after {
-    color: orange;
-    content: "r"; }
+    color: #af420a;
+    content: "r";
+    opacity: 1; }
 
 .spaceship {
-  color: red; }
+  color: #cccccc; }
   .spaceship:first-letter {
-    color: green; }
+    color: #cbb345; }
   .spaceship:first-line {
-    color: blue; }
+    color: #333333; }
   .spaceship:before {
     content: "ss\a s"; }
   .spaceship:after {
-    color: orange;
+    color: #1f1f1f;
+    opacity: 0.3;
     content: "s"; }
 
 .stamp {
-  color: red; }
+  color: gray; }
   .stamp:first-letter {
-    color: green; }
+    color: #cbb345; }
   .stamp:first-line {
-    color: blue; }
+    color: #333333; }
   .stamp:before {
     content: "tt\a t"; }
   .stamp:after {
-    color: orange;
+    color: #af420a;
     content: "t"; }
