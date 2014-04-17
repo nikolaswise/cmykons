@@ -1,21 +1,21 @@
 @font-face {
   font-family: "CMYKons";
-  src: url(fonts/layer1-cmykons/fontcustom.ttf);
+  src: url(fonts/cmykons-100.woff);
   font-weight: 100; }
 
 @font-face {
   font-family: "CMYKons";
-  src: url(fonts/layer2-cmykons/fontcustom.ttf);
+  src: url(fonts/cmykons-200.woff);
   font-weight: 200; }
 
 @font-face {
   font-family: "CMYKons";
-  src: url(fonts/layer3-cmykons/fontcustom.ttf);
+  src: url(fonts/cmykons-300.woff);
   font-weight: 300; }
 
 @font-face {
   font-family: "CMYKons";
-  src: url(fonts/layer4-cmykons/fontcustom.ttf);
+  src: url(fonts/cmykons-400.woff);
   font-weight: 400; }
 
 .cmykon {
@@ -34,7 +34,9 @@
   font-weight: 200; }
 
 .cmykon:after {
-  font-weight: 400; }
+  font-weight: 400;
+  color: #595959;
+  opacity: 0.3; }
 
 /**
  * Another icon
@@ -42,15 +44,13 @@
 .books {
   color: #cccccc; }
   .books:first-letter {
-    color: gray; }
+    color: #af420a; }
   .books:first-line {
-    color: #cbb345; }
+    color: #1f1f1f; }
   .books:before {
     content: "aa\a a"; }
   .books:after {
-    color: #595959;
-    content: "a";
-    opacity: 0.2; }
+    content: "a"; }
 
 /**
  * Another icon
@@ -64,31 +64,30 @@
   .browser:before {
     content: "bb\a b"; }
   .browser:after {
-    color: #595959;
+    color: #af420a;
+    opacity: 1;
     content: "b"; }
 
 /**
  * Another icon
  */
 .calendar {
-  color: #cbb345; }
+  color: #af420a; }
   .calendar:first-letter {
     color: #cbb345; }
   .calendar:first-line {
-    color: #cccccc;
+    color: #333333;
     opacity: 0.1; }
   .calendar:before {
     content: "cc\a c"; }
   .calendar:after {
-    color: #595959;
-    opacity: 0.9;
     content: "c"; }
 
 /**
  * Another icon
  */
 .camera {
-  color: #cbb345; }
+  color: #af420a; }
   .camera:first-letter {
     color: #cccccc; }
   .camera:first-line {
@@ -96,32 +95,29 @@
   .camera:before {
     content: "dd\a d"; }
   .camera:after {
-    color: #595959;
-    opacity: 0.4;
     content: "d"; }
 
 /**
  * Another icon
  */
 .clock {
-  color: #cbb345; }
+  color: #af420a; }
   .clock:first-letter {
-    color: #af420a; }
+    color: gray; }
   .clock:first-line {
-    color: #609f80; }
+    color: #595959; }
   .clock:before {
-    content: "ee\a e";
-    opacity: 0.1; }
+    content: "ee\a e"; }
   .clock:after {
-    color: #798e87;
-    content: "e";
-    opacity: 1; }
+    color: #1f1f1f;
+    opacity: 1;
+    content: "e"; }
 
 /**
  * Another icon
  */
 .coffee {
-  color: #cbb345; }
+  color: #cccccc; }
   .coffee:first-letter {
     color: #af420a;
     opacity: 0.9; }
@@ -131,63 +127,50 @@
     content: "ff\a f";
     opacity: 0.8; }
   .coffee:after {
-    color: #595959;
-    opacity: 0.4;
     content: "f"; }
 
 .compass {
-  color: #798e87; }
+  color: #af420a; }
   .compass:first-letter {
-    color: #af420a;
-    opacity: 0.5; }
+    color: #cccccc; }
   .compass:first-line {
-    color: #595959;
-    opacity: 1; }
+    color: #1f1f1f; }
   .compass:before {
-    content: "gg\a g";
-    opacity: 0.5; }
+    content: "gg\a g"; }
   .compass:after {
-    color: #1f1f1f;
     content: "g"; }
 
 .debit {
   color: #333333; }
   .debit:first-letter {
-    color: #cbb345; }
+    color: #af420a; }
   .debit:first-line {
     color: #798e87; }
   .debit:before {
     content: "hh\a h"; }
   .debit:after {
-    color: #595959;
-    opacity: 0.4;
     content: "h"; }
 
 .gauge {
   color: #333333; }
   .gauge:first-letter {
-    color: #cbb345; }
+    color: #cccccc; }
   .gauge:first-line {
     color: #af420a; }
   .gauge:before {
     content: "ii\a i"; }
   .gauge:after {
-    color: #595959;
-    opacity: 0.4;
     content: "i"; }
 
 .graph {
-  color: #4b574d; }
+  color: #595959; }
   .graph:first-letter {
     color: #cbb345; }
   .graph:first-line {
-    color: #8d9876; }
+    color: #af420a; }
   .graph:before {
-    content: "jj\a j";
-    opacity: 0.9; }
+    content: "jj\a j"; }
   .graph:after {
-    color: #595959;
-    opacity: 0.4;
     content: "j"; }
 
 .grid {
@@ -199,8 +182,8 @@
   .grid:before {
     content: "kk\a k"; }
   .grid:after {
-    color: #cbb345;
-    opacity: 0.6;
+    color: #af420a;
+    opacity: 0.5;
     content: "k"; }
 
 .liferaft {
@@ -212,60 +195,51 @@
   .liferaft:before {
     content: "ll\a l"; }
   .liferaft:after {
-    color: #333333;
     content: "l"; }
 
 .pencil {
   color: #595959; }
   .pencil:first-letter {
-    color: #cbb345; }
+    color: #af420a; }
   .pencil:first-line {
     color: #333333; }
   .pencil:before {
     content: "mm\a m"; }
   .pencil:after {
-    color: #595959;
-    opacity: 0.4;
     content: "m"; }
 
 .phone {
-  color: #8d9876; }
+  color: #333333; }
   .phone:first-letter {
-    color: #cbb345;
-    opacity: 0.9; }
-  .phone:first-line {
-    color: #4b574d; }
-  .phone:before {
-    content: "nn\a n";
-    opacity: 1; }
-  .phone:after {
     color: #333333;
-    opacity: 0.9;
+    opacity: 0.1; }
+  .phone:first-line {
+    color: #af420a; }
+  .phone:before {
+    content: "nn\a n"; }
+  .phone:after {
     content: "n"; }
 
 .piechart {
-  color: #af420a; }
+  color: #cbb345; }
   .piechart:first-letter {
     color: #333333; }
   .piechart:first-line {
-    color: #609f80; }
+    color: #af420a; }
   .piechart:before {
     content: "oo\a o"; }
   .piechart:after {
-    color: #cbb345;
     content: "o"; }
 
 .pin {
-  color: #595959; }
+  color: #b3440a; }
   .pin:first-letter {
-    color: #cbb345; }
+    color: #af420a; }
   .pin:first-line {
-    color: #798e87; }
+    color: gray; }
   .pin:before {
     content: "pp\a p"; }
   .pin:after {
-    color: #333333;
-    opacity: 0.3;
     content: "p"; }
 
 .pizza {
@@ -277,48 +251,38 @@
   .pizza:before {
     content: "qq\a q"; }
   .pizza:after {
-    color: #333333;
-    opacity: 0.3;
     content: "q"; }
 
 .radio {
-  color: #cccccc; }
+  color: #af420a; }
   .radio:first-letter {
-    color: #cbb345;
-    opacity: 0.9; }
+    color: #cccccc; }
   .radio:first-line {
     color: #333333;
     opacity: 1; }
   .radio:before {
-    content: "rr\a r";
-    opacity: 0.3; }
+    content: "rr\a r"; }
   .radio:after {
-    color: #af420a;
-    content: "r";
-    opacity: 1; }
+    content: "r"; }
 
 .spaceship {
   color: #cccccc; }
   .spaceship:first-letter {
-    color: #cbb345; }
+    color: #af420a; }
   .spaceship:first-line {
     color: #333333; }
   .spaceship:before {
     content: "ss\a s"; }
   .spaceship:after {
-    color: #1f1f1f;
-    opacity: 0.3;
     content: "s"; }
 
 .stamp {
-  color: gray;
-  opacity: 0.5; }
+  color: #af420a; }
   .stamp:first-letter {
-    color: #cbb345; }
+    color: #cccccc; }
   .stamp:first-line {
-    color: #333333; }
+    color: #cbb345; }
   .stamp:before {
     content: "tt\a t"; }
   .stamp:after {
-    color: #af420a;
     content: "t"; }

@@ -1,22 +1,22 @@
 // Font Declartions
 @font-face {
   font-family: "CMYKons";
-  src: url(fonts/layer1-cmykons/fontcustom.ttf);
+  src: url(fonts/cmykons-100.woff);
   font-weight: 100;
 }
 @font-face {
   font-family: "CMYKons";
-  src: url(fonts/layer2-cmykons/fontcustom.ttf);
+  src: url(fonts/cmykons-200.woff);
   font-weight: 200;
 }
 @font-face {
   font-family: "CMYKons";
-  src: url(fonts/layer3-cmykons/fontcustom.ttf);
+  src: url(fonts/cmykons-300.woff);
   font-weight: 300;
 }
 @font-face {
   font-family: "CMYKons";
-  src: url(fonts/layer4-cmykons/fontcustom.ttf);
+  src: url(fonts/cmykons-400.woff);
   font-weight: 400;
 }
 
@@ -38,4 +38,6 @@
 }
 .cmykon:after {
   font-weight: 400;
+  color: $dark-gray;
+  opacity: 0.3;
 }
